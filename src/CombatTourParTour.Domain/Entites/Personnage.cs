@@ -12,5 +12,6 @@ public abstract class Personnage
         Nom = nom;
         Pv = new PointsDeVie(pvMax);
     }
+    /// Indique si le personnage a encore des points de vie.
     public bool EstVivant => Pv.JaugeActuelle > 0;
 }
